@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>登录界面</title>
+<style>
+body {
+background-color: #f2f2f2;
+font-family: Arial, sans-serif;
+}
+form {
+background-color: white;
+border: 1px solid #ccc;
+padding: 20px;
+width: 300px;
+margin: auto;
+}
+label {
+display: block;
+margin-bottom: 10px;
+}
+input {
+width: 100%;
+padding: 10px;
+border: 1px solid #ccc;
+border-radius: 3px;
+box-sizing: border-box;
+margin-bottom: 20px;
+}
+input[type=submit] {
+background-color: #4CAF50;
+color: white;
+font-weight: bold;
+border: none;
+cursor: pointer;
+}
+input[type=submit]:hover {
+background-color: #3e8e41;
+}
+</style>
+</head>
+<body>
+<form>
+<label for="username">用户名:</label>
+<input type="text" name="username" id="username">
+<label for="password">密码:</label>
+<input type="password" name="password" id="password">
+<input type="submit" value="登录">
+</form>
+</body>
+</html>
